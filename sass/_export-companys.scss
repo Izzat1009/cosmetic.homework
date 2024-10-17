@@ -1,0 +1,26 @@
+.export-companys{
+
+    .container{
+        height: 113px;
+        max-width: 1172px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+  .grids{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(89px, 3fr));
+    flex-direction: column;
+    grid-gap: 0 100px;
+    align-items: center;
+  }   
+  .grid-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+  }
+  img{
+    width: 122px;
+    height: 26px;
+  }
+}

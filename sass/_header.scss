@@ -1,0 +1,71 @@
+
+.header{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 16px;
+    overflow: auto;
+
+}
+.navbar{
+    height: 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+
+    &__logo{
+        align-items: center;
+        display: flex;
+        
+
+    }
+    img{
+        width: 128px;
+    }
+    .navbar__collection{
+        display: flex;
+        gap: 0 34px;
+        font-size: 16px;
+        list-style: none;
+        overflow: auto;
+        cursor: pointer;
+        z-index: 101;
+      li{
+        font-family: "redhat";
+        font-weight: 400;
+        color: #000000;
+      }   
+    }
+    .icons__colection{
+      overflow: auto;
+      cursor: pointer;
+    }
+    .avatar{
+        width: 21px;
+        height: 21px;
+    }
+    .buy{
+        width: 21px;
+        height: 21px;
+    }
+    .menu{
+        width: 21px;
+        height: 21px;
+    }
+    
+}
+@media (max-width: 700px) {
+    .navbar{
+
+        &__logo{
+
+            img{
+                width: 100px;
+            }
+        }
+    .navbar__collection{
+        display: none;
+    }
+   }
+}
+

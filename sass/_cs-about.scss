@@ -1,0 +1,44 @@
+.cs-about-m{
+    margin: 0 auto;
+    padding: 0 16px;
+    flex-direction: column;
+    max-width: 1240px;
+    margin-top: 200px;
+    .cs-about-lg{
+        max-width: 608px;
+        height: 128px;
+        margin-right: auto;
+        margin-top: -380px;
+        flex-direction: column;
+          p{
+            font-size: 20px;
+            font-family: "redhat";
+            font-weight: 400;
+            line-height: 32px;
+          }
+    }
+    .cs-about-md{
+        flex-direction: column;
+        max-width: 608px;
+        height: 128px;
+        p{
+            font-size: 20px;
+            font-family: "redhat";
+            font-weight: 400;
+            line-height: 32px;
+        }
+    }
+}
+.cs-about-title{
+    display: flex;
+    justify-content: space-between;
+    h3{
+        font-size: 65px;
+        font-family: "redhat";
+        font-weight: 500;
+        line-height: 70px;
+    }
+    img{
+        flex-direction: column;
+    }
+}

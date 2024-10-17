@@ -1,0 +1,142 @@
+.testimonial-section {
+    max-width: 1240px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 0 auto;
+    flex-direction: column;
+    
+    .testimonial {
+      display: flex;
+      margin: 0 auto;
+      padding: 0 16px;
+      gap: 20px;
+      align-items: center;
+  
+      img {
+        width: 583px;
+        height: 554px;
+        object-fit: cover;
+      }
+  
+      .testimonial-content{
+        h2 {
+          font-size: 30px;
+          font-family: "redhat";
+          font-weight: 500;
+          color: #222222;
+          margin-bottom: 10px;
+        }
+  
+        .stars{
+            img{
+                width: 168px;
+                height: 24px;
+            }
+        }
+  
+       p {
+          color: #555555;
+          margin: 10px 0;
+          font-family: "redhat";
+          font-weight: 500;
+          font-size: 20px;
+          
+        }
+  
+        .author {
+          font-weight: bold;
+          margin-top: 10px;
+          color: #222222;
+          font-family: "redhat";
+          font-weight: 500;
+          font-size: 30px;
+        }
+  
+        .position {
+          color: #555555;
+          margin-top: 5px;
+          font-family: "redhat";
+          font-weight: 500;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  
+@media (max-width: 870px) {
+
+    .testimonial-section {
+    max-width: 870px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 0 auto;
+    flex-direction: column;
+    
+    .testimonial {
+      display: flex;
+      margin: 0 auto;
+      padding: 0 16px;
+      gap: 20px;
+      align-items: center;
+      flex-direction: column;
+  
+      img {
+        width: 383px;
+        height: 354px;
+        object-fit: cover;
+      }
+  
+}
+    }
+    .cs-about-title{
+        flex-direction: column;
+        h3{
+            font-size: 65px;
+            font-family: "redhat";
+            font-weight: 500;
+            line-height: 70px;
+            display: none;
+        }
+        img{
+            flex-direction: column;
+            width: 383px;
+            display: none;
+            height: 354px;
+        }
+    }
+    .cs-about-m{
+        margin: 0 auto;
+        padding: 0 16px;
+        flex-direction: column;
+        max-width: 1240px;
+        margin-top: 200px;
+        .cs-about-lg{
+            max-width: 608px;
+            height: 128px;
+            margin-right: auto;
+            margin-top: -380px;
+            flex-direction: column;
+              p{
+                font-size: 20px;
+                flex-direction: c;
+                font-family: "redhat";
+                font-weight: 400;
+                line-height: 32px;
+              }
+        }
+        .cs-about-md{
+            flex-direction: column;
+            max-width: 608px;
+            height: 128px;
+            p{
+                font-size: 20px;
+                font-family: "redhat";
+                font-weight: 400;
+                line-height: 32px;
+            }
+        }
+    }
+       
+}

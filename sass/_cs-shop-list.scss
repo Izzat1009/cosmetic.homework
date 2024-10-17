@@ -1,0 +1,146 @@
+.cs-shop-list{
+    max-width: 1240px;
+    height: 1037px;
+    margin: 0 auto;
+    padding: 0 16px;
+    flex-direction: column;
+}
+.cs-shop-title{
+    overflow: auto;
+    max-width: 1240px;
+    h2{
+        font-size: 56px;
+        line-height: 70px;
+        color: #000000;
+        font-family: "redhat";
+        font-weight: 500;
+    }
+.cs-about{
+    display: flex;
+    justify-content: space-between;
+
+    p{
+        font-size: 20px;
+        font-family: "redhat";
+        font-weight: 400;
+        line-height: 32px;
+        max-width: 761px;
+        
+    }
+
+
+}
+.cs-shop-btn{
+    padding-left: 30px;
+    width: 280px;
+    height: 30px;
+    button{
+        border: none;
+        background-color: #fff;
+        color: #000000;
+        width: 280px;
+        height: 30px;
+        font-family: "redhat";
+        font-weight: 400;
+    }
+}
+
+}
+.cs-grid {
+    overflow: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+    flex-direction: column;
+    .cs-item {
+        background: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      h3 {
+        font-size: 40px;
+        margin: 10px 0;
+        font-weight: 500;
+        font-family: "redhat";
+      }
+      p {
+        color: #555555;
+        margin: 10px 0;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "redhat";
+      }
+      button {
+        background-color: #402F2C;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        margin: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      button:hover{
+        background-color: #fff;
+        color: black;
+        border: 1px solid black;
+      }
+      
+    }
+
+
+@media (max-width: 370px) {
+    .cs-shop-list{
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 0 16px;
+        display: flex;
+        overflow: auto;
+    }
+    .cs-shop-title{
+        overflow: auto;
+        max-width: 1240px;
+        h2{
+            font-size: 36px;
+            line-height: 50px;
+            color: #000000;
+            font-family: "redhat";
+            font-weight: 500;
+        }
+    .cs-about{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    
+        p{
+            font-size: 10px;
+            font-family: "redhat";
+            font-weight: 400;
+            line-height: 12px;
+            max-width: 361px;
+            
+        }
+    
+    
+    }
+    .cs-shop-btn{
+        padding-left: 30px;
+        width: 280px;
+        height: 30px;
+        button{
+            border: none;
+            background-color: #fff;
+            color: #000000;
+            width: 280px;
+            height: 30px;
+            font-family: "redhat";
+            font-weight: 400;
+        }
+    }
+    }
+}

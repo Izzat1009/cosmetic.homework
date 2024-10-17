@@ -1,0 +1,49 @@
+.statistic{
+  max-width: 1440px;
+  height: 250px;
+  background-color: #FDF8F5;
+  flex-direction: column;
+  display: block;
+  margin: 0 auto;
+}
+.container{
+
+}
+.static-title{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0 194px;
+    margin-top: 3%;
+    text-align: center;
+    align-items: center;
+    background-color: #FDF8F5;
+    .grid-box3{
+        overflow: hidden;
+        width: 100%;
+        flex-direction: column;
+        background-color: #FDF8F5;
+    }
+}
+@media (max-width: 370px) {
+    .statistic{
+        max-width: 1440px;
+        height: 250px;
+        background-color: #FDF8F5;
+        flex-direction: column;
+      }
+      .container{
+      
+      }
+      .static-title{
+          display: flex;
+          justify-content: center;
+          gap: 0 194px;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          
+      }
+    
+}
